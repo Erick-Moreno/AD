@@ -43,7 +43,7 @@ El proceso de decisión consiste en seleccionar una alternativa de una lista exh
 Cada curso de acción posible tiene una consecuencia o resultado que es una medida del beneficio neto que debe ser evaluado por el decisor. Las consecuencias dependen tanto de la decisión como del estado de la naturaleza que ·se presente, por lo que hay un resultado asociado a cada pareja ordenada (estado de la
 naturaleza, acción).
 
-**1.4 Elementos de un acto de decisión**
+### **1.4 Elementos de un acto de decisión**
 
 1. Uno o más decisores (individuo, grupo, ·organización o sociedad) con objetivos y metas bien definidos.
 2. Un conjunto de posibles acciones que pueden tomarse para resolver el problema de decisión.
@@ -52,6 +52,31 @@ naturaleza, acción).
 5. Un proceso de decisión que, bajo un criterio específico, selecciona una o varias acciones dados un
 entorno y las metas explícitas del decisor.
 
+### **1.5 Matriz de decisión o matriz de pagos**
 
+Las consecuencias de cada pareja (estado de la naturaleza, acción) se representan en una matriz de dos entradas. Los resultados se determinan por medio de la función de consecuencias o función de resultados que se deriva de cada situación en particular.
 
+## Ejemplo 1
+
+En el transcurso del mes de enero de cada año, el propietario de una tienda de artículos deportivos debe enviar a uno de sus proveedores el pedido de playeras de verano. La cantidad solicitada debe hacerla en lotes de 100 prendas y el precio varía de la siguiente manera: si pide 100 playeras el costo es de $100 por prenda; si pide 200 el costo baja a $90 y si solicita 300 o más el costo será de $85. El precio al público de cada playera es de $120, pero al final del verano lo que no se vendió se remata a mitad de precio. 
+
+Él supone que la demanda será de 100, 150 o 200 prendas, sin embargo, por cada playera que un cliente solicite y no pueda adquirir, tendrá una pérdida de $5 de su buen nombre. Debido al tiempo de entrega, el pedido se debe colocar en una sola ocasión.
+
+Identificar los elementos del problema y determinar la matriz de pagos. 
+
+## Solución
+
+Elementos del problema: 
+l. Decisor:
+2. Cursos de acción posibles:
+3. Estados de la naturaleza:
+4. Función de consecuencias: 
+
+La función de consecuencias depende de la cantidad de playeras pedidas y de la cantidad vendida:
+
+a) Si la demanda es igual al pedido, el resultado está dado por:
+
+(demanda) x (ganancia)
+
+donde: ganancia = precio de venta - precio de compra 
 
