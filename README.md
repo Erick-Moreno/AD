@@ -66,17 +66,88 @@ Identificar los elementos del problema y determinar la matriz de pagos.
 
 ## Solución
 
-Elementos del problema: 
 l. Decisor:
+
+  El propietario de la tienda 
+
 2. Cursos de acción posibles:
+ 
+      a<sub>1</sub> = pedir 100 prendas
+   
+     a<sub>2</sub> = pedir 200 prendas
+   
+      a<sub>3</sub> = pedir 300 prendas 
+
 3. Estados de la naturaleza:
-4. Función de consecuencias: 
+ 
+      θ<sub>1</sub> = demanda de 100 prendas
+   
+      θ<sub>2</sub> = demanda de 150 prendas
+   
+      θ<sub>3</sub> = demanda de 200 prendas
+
+4. Función de consecuencias:
+
+      Pago asociado con cada par (θ<sub>i</sub>, a<sub>j</sub>)
 
 La función de consecuencias depende de la cantidad de playeras pedidas y de la cantidad vendida:
 
 a) Si la demanda es igual al pedido, el resultado está dado por:
 
-(demanda) x (ganancia)
+<p align="center">
+  (demanda) <span style="display: inline-block; text-align: center;">x</span> (ganancia)
+</p>
 
-donde: ganancia = precio de venta - precio de compra 
+donde: <p align="center">
+  ganancia =  <span style="display: inline-block; text-align: center;"> precio de venta -</span> precio de compra
+</p>
+
+b) Si la demanda es menor que el pedido, el resultado se obtiene al calcular: 
+
+<p align="center">
+  [(demanda) (ganancia)]+ [(pedido - demanda) (precio de remate - precio de compra)]
+</p>
+
+e) Y si la demanda es mayor que el pedido:
+
+<p align="center">
+ [(pedido) (ganancia)]- [ (5) (demanda-pedido)]
+</p>
+
+• Matriz de resultados (matriz de pagos, matriz de consecuencias, matriz de decisión): 
+
+|                             |       |       |       |
+|-----------------------------|-------|-------|-------|
+| Acción (pedido)             | a<sub>1</sub> | a<sub>2</sub> | a<sub>3</sub> |
+| Estado de la naturaleza (demanda) | 100   | 200   | 300   |
+| θ<sub>1</sub>=100              | 2,000 | 0     | -1,500     |
+| θ<sub>2</sub>=150              | 1,750 | 3,000 | 1,500 |
+| θ<sub>3</sub>=200              | 1,500 | 6,000 | 4,500 |
+
+### **1.6 Dominación**
+
+Una acción está dominada por otra, si los resultados de su implementación son al menos tan. deseables como los resultados de otra acción pero, para al menos un estado de la naturaleza, es menos deseable. En tal caso, la acción es inadmisible y por lo tanto puede eliminarse e de la lista de posibles decisiones sin afectar el resultado del proceso de decisión. 
+
+|       |       |       |       |
+|-------|-------|-------|-------|
+| Acción| a2    |       | a3    |
+| Estado de la naturaleza|       |       |       |
+| θ1    | 0     | > | -1,500 |
+| θ2    | 3,000 | > | 1,500 |
+| θ3    | 6,000 | > | 4,500 |
+
+Por lo tanto, no es una estrategia admisible y se elimina de la matriz de pagos. Es recomendable analizar siempre si existen estrategias dominadas en una matriz de_ pagos y, de ser así, eliminarlas antes de iniciar el proceso de toma de decisión.
+
+La matriz de pagos que se utilizará para tomar la decisión del tamaño del pedido de playeras es: 
+
+|                             |       |       |
+|-----------------------------|-------|-------|
+| Acción (pedido)             | a<sub>1</sub> | a<sub>2</sub> |
+| Estado de la naturaleza (demanda) | 100   | 200   |
+| θ<sub>1</sub>=100              | 2,000 | 0     |
+| θ<sub>2</sub>=150              | 1,750 | 3,000 |
+| θ<sub>3</sub>=200              | 1,500 | 6,000 |
+
+
+
 
