@@ -148,6 +148,32 @@ La matriz de pagos que se utilizará para tomar la decisión del tamaño del ped
 | θ<sub>2</sub>=150              | 1,750 | 3,000 |
 | θ<sub>3</sub>=200              | 1,500 | 6,000 |
 
+# UNIDAD2
 
+*DECISIONES BAJO COMPLETA INCERTIDUMBRE*
 
+## *Objetivo: Aplicar criterios de decisión en completa ignorancia apoyándose en aspectos filosóficos y psicológicos al carecer de información.*
+
+### **2.1 Criterios de elección no probabilísticos**
+
+En el ejemplo 1, para tomar una decisión sobre el número de playeras que deben pedirse al proveedor con la infonnación que se proporcionó, el propietario se enfrenta a un proceso de decisión bajo completa incertidumbre porque no conoce algún valor de probabilidad asociado a la posible ocurrencia de los estados de la naturaleza.
+
+Para resolver este tipo de problemas se recurre a los criterios de elección no probabilísticos: aquéllos en los que se ignora la naturaleza probabilística de la toma de decisiones porque no es posible disponer de tal información.
+
+*2.1.1 Criterio maximin de Wald*
+
+Es un criterio de elección pesimista porque escoge "lo mejor de lo peor", es decir, maximiza la mínima ganancia. Este criterio no es el que comúnmente sigue un hombre de negocios, porque generalmente lo llevaría a perder dinero; sin embargo en la Teoría de Juegos es un métodO'utilizado para seleccionar una
+estrategia.
+
+*2.1.2 Criterio maximax*
+
+Es un criterio de decisión muy optimista, característico del especulador y de personas que tienen gran atracción por el riesgo. Consiste en elegir "lo mej.or de lo mejor". No es un criterio recomendable porque ignora las pérdidas.
+
+*2.1.3 Criterio de Hurwicz- índice a (Coeficientes optimistas - pesimistas)*
+
+Leonid Hurwicz consideraba que un tomador de decisiones "racional" podía sentirse optimista y ser capaz de expresar su grado de optimismo -al que llamó "coeficiente de optimismo"- a través de un valor a que asigna a los resultados (consecuencias) más grandes y (1 - α) a los más pequeños. Para la acción a<sub>j</sub> se calcula como: 
+
+<p align="center">
+ H<sub>j</sub> =(α) (consecuencia máxima) <span style="display: inline-block; text-align: center;">+</span> (1- α) (consecuencia mínima)
+</p>
 
