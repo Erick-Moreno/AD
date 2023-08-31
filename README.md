@@ -181,11 +181,11 @@ Y se elige la acción que tenga el mayor H<sub>j</sub>. Observe que si a es cerc
 
 Desventajas de este criterio: 
 
-a) La dificultad para elegir el valor de α.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a) La dificultad para elegir el valor de α.
 
-b) Se ignoran los valores. de las consecuencias intermedias.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Se ignoran los valores. de las consecuencias intermedias.
 
-c) La imposibilidad de tomar una decisión cuando todas tengan las mismas consecuencias máxima y mínima. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) La imposibilidad de tomar una decisión cuando todas tengan las mismas consecuencias máxima y mínima. 
 
 *2.1.4 Pesar minimax. Criterio de Savage*
 
@@ -193,6 +193,11 @@ Leonard J. Savage propuso minimizar el pesar que se experimentaría por una deci
 
 Para aplicar este criterio debe calcularse una matriz de arrepentimiento o de pérdida de oportunidad y utilizar el criterio minimax para seleccionar la acción que, de este modo, permitirá *minimizar el arrepentimiento maximo*. El proceso es el siguiente: 
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**l.** Obtener la matriz de pérdida de oportunidad para lo cual
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Se sustituye por O el valor más grande de cada renglón (este es el valor del arrepentimiento para esa entrada) 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Los demás valores se calculan como: 
 
 
 
