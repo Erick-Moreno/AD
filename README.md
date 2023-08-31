@@ -152,7 +152,7 @@ La matriz de pagos que se utilizará para tomar la decisión del tamaño del ped
 
 *DECISIONES BAJO COMPLETA INCERTIDUMBRE*
 
-## *Objetivo: Aplicar criterios de decisión en completa ignorancia apoyándose en aspectos filosóficos y psicológicos al carecer de información.*
+**Objetivo: Aplicar criterios de decisión en completa ignorancia apoyándose en aspectos filosóficos y psicológicos al carecer de información.**
 
 ### **2.1 Criterios de elección no probabilísticos**
 
@@ -176,4 +176,24 @@ Leonid Hurwicz consideraba que un tomador de decisiones "racional" podía sentir
 <p align="center">
  H<sub>j</sub> =(α) (consecuencia máxima) <span style="display: inline-block; text-align: center;">+</span> (1- α) (consecuencia mínima)
 </p>
+
+Y se elige la acción que tenga el mayor H<sub>j</sub>. Observe que si a es cercana a 1, quiere decir que el decisor es optimista. Un valor de a cercano a &#x00BD; , indica una actitud neutral hacia el destino.
+
+Desventajas de este criterio: 
+
+a) La dificultad para elegir el valor de α.
+
+b) Se ignoran los valores. de las consecuencias intermedias.
+
+c) La imposibilidad de tomar una decisión cuando todas tengan las mismas consecuencias máxima y mínima. 
+
+*2.1.4 Pesar minimax. Criterio de Savage*
+
+Leonard J. Savage propuso minimizar el pesar que se experimentaría por una decisión que no fuera la mejor una vez que ha ocurrido un.estado de la naturaleza específico.
+
+Para aplicar este criterio debe calcularse una matriz de arrepentimiento o de pérdida de oportunidad y utilizar el criterio minimax para seleccionar la acción que, de este modo, permitirá *minimizar el arrepentimiento maximo*. El proceso es el siguiente: 
+
+
+
+
 
