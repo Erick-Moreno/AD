@@ -250,3 +250,23 @@ H<sub>j</sub> = αC<sub>max</sub> <span style="display: inline-block; text-align
 </p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Supóngase que α = 1/3, entonces: 
+
+a<sub>1</sub>: pago máximo; $2,000; pago mínimo: $1,500 
+
+<p align="center">
+H<sub>1</sub> = (1/3)(2,000)<span style="display: inline-block; text-align: center;"> + (2/3) (1500)</span> = $1,666.66 
+</p>
+
+a<sub>2</sub>: pago máximo: $6,000; pago mínimo: $0
+
+<p align="center">
+H<sub>2</sub> = (1/3) (6,000)<span style="display: inline-block; text-align: center;"> + (2/3) (0)</span>)= $2,000
+</p>
+
+Se decide por el valor máximo:
+
+<p align="center">
+max<span style="display: inline-block; text-align: center;"> {1,666.66; 2,000} </span>)= $2,000 
+</p>
+
+Por lo tanto la decisión deberá ser a2: pedir 200 playeras.
