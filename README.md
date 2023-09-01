@@ -269,4 +269,34 @@ Se decide por el valor máximo:
 max<span style="display: inline-block; text-align: center;"> {1,666.66; 2,000} </span>)= $2,000 
 </p>
 
-Por lo tanto la decisión deberá ser a2: pedir 200 playeras.
+Por lo tanto la decisión deberá ser a<sub>2</sub>: pedir 200 playeras.
+
+**d) Pesar minimax:criterio de Savage** (minimizar el arrepentimiento o pérdida de oportunidad máxima) 
+
+* 1. Cálculo de la matriz de pérdida de oportunidad:
+ 
+Si se piden 100 playeras (a<sub>1</sub>) y la demanda que resulta es de 150 (θ<sub>2</sub>), la pérdida de oportunidad será la diferencia entre la ganancia que pudo haber obtenido de solicitar la cantidad necesaria para maximizar la ganancia, menos la que obtiene por vender 100 playeras y dejar de vender 50: 
+
+<p align="center">
+(150 X 20)- <span style="display: inline-block; text-align: center;"> (100 X 20 - 5 X 50) </span>) = $1,250 
+</p>
+
+Para (θ<sub>3</sub>,a<sub>1</sub>), la demanda fue de 200 y se pidieron 100 piezas, el arrepentimiento o pérdida de oportunidad se calcula como sigue: 
+
+Pago que habría recibido de saber la demanda: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 200 (120 - 90) = $6,000
+
+Pago que recibe con la decisión que tomó:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100 (20)- 5 (200-100) = 2000- 500 = $1,500
+
+La diferencia es la pérdida de oportunidad:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6000 - 1500 = $4,500 
+
+En el caso de (θ<sub>1</sub>, a<sub>2</sub>), la pérdida de oportunidad es:
+
+<p align="center">
+100 (20)- [100 (120-90) <span style="display: inline-block; text-align: center;"> - 100 (90-60)]  </span>) = $2,000
+</p>
+
+Mientras que para (θ<sub>2</sub>, a<sub>2</sub>) y (θ<sub>3</sub>, a<sub>2</sub>) su mejor decisión es a2, por lo que no tendría de qué arrepentirse.
+
+La matriz de pérdida de oportunidades es la siguiente: 
+
+
