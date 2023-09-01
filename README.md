@@ -120,9 +120,8 @@ donde: <p align="center">
 
 • Matriz de resultados (matriz de pagos, matriz de consecuencias, matriz de decisión): 
 
-|                             |       |       |       |
-|-----------------------------|-------|-------|-------|
 | Acción (pedido)             | a<sub>1</sub> | a<sub>2</sub> | a<sub>3</sub> |
+|-----------------------------|-------|-------|-------|
 | Estado de la naturaleza (demanda) | 100   | 200   | 300   |
 | θ<sub>1</sub>=100              | 2,000 | 0     | -1,500     |
 | θ<sub>2</sub>=150              | 1,750 | 3,000 | 1,500 |
@@ -132,9 +131,8 @@ donde: <p align="center">
 
 Una acción está dominada por otra, si los resultados de su implementación son al menos tan. deseables como los resultados de otra acción pero, para al menos un estado de la naturaleza, es menos deseable. En tal caso, la acción es inadmisible y por lo tanto puede eliminarse e de la lista de posibles decisiones sin afectar el resultado del proceso de decisión. 
 
-|       |       |       |       |
-|-------|-------|-------|-------|
 | Acción| a2    |       | a3    |
+|-------|-------|-------|-------|
 | Estado de la naturaleza|       |       |       |
 | θ1    | 0     | > | -1,500 |
 | θ2    | 3,000 | > | 1,500 |
@@ -144,9 +142,8 @@ Por lo tanto, no es una estrategia admisible y se elimina de la matriz de pagos.
 
 La matriz de pagos que se utilizará para tomar la decisión del tamaño del pedido de playeras es: 
 
-|                             |       |       |
-|-----------------------------|-------|-------|
 | Acción (pedido)             | a<sub>1</sub> | a<sub>2</sub> |
+|-----------------------------|-------|-------|
 | Estado de la naturaleza (demanda) | 100   | 200   |
 | θ<sub>1</sub>=100              | 2,000 | 0     |
 | θ<sub>2</sub>=150              | 1,750 | 3,000 |
