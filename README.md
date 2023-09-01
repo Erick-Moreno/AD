@@ -295,8 +295,60 @@ En el caso de (θ<sub>1</sub>, a<sub>2</sub>), la pérdida de oportunidad es:
 100 (20)- [100 (120-90) <span style="display: inline-block; text-align: center;"> - 100 (90-60)]  </span>) = $2,000
 </p>
 
-Mientras que para (θ<sub>2</sub>, a<sub>2</sub>) y (θ<sub>3</sub>, a<sub>2</sub>) su mejor decisión es a2, por lo que no tendría de qué arrepentirse.
+Mientras que para (θ<sub>2</sub>, a<sub>2</sub>) y (θ<sub>3</sub>, a<sub>2</sub>) su mejor decisión es a<sub>2</sub>, por lo que no tendría de qué arrepentirse.
 
 La matriz de pérdida de oportunidades es la siguiente: 
 
+**Matriz de pago**
+| Acción (pedido)            | a<sub>1</sub> | a<sub>2</sub> |
+|-----------------------------|-------|-------|
+| Estado de la naturaleza (demanda) | 100   | 200   |  
+| θ<sub>1</sub>=100              | 2,000 | 0     |  
+| θ<sub>2</sub>=150              | 1,750 | 3,000 |  
+| θ<sub>3</sub>=200              | 1,500 | 6,000 |  
 
+**Matriz de pérdida de oportunidad**
+| Acción (pedido)            | a<sub>1</sub> | a<sub>2</sub> |
+|-----------------------------|-------|-------|
+| Estado de la naturaleza (demanda) | 100   | 200   |
+| θ<sub>1</sub>=100              | 0| 2,000     |
+| θ<sub>2</sub>=150              | 1,250 | 0 |
+| θ<sub>3</sub>=200              | 4,500 | 0 |
+
+* 2. Determinar el valor máximo de cada acción
+
+De la matriz de pérdida de oportunidad se observa que el pesar máximo (pérdida de oportunidad) para:
+
+<p align="center">
+a<sub>1</sub>: <span style="display: inline-block; text-align: center;"> pedir 100 prendas,  </span>) es $4,500
+</p>
+
+<p align="center">
+a<sub>2</sub>: <span style="display: inline-block; text-align: center;"> pedir 200 prendas,  </span>) es $2,000
+</p>
+
+* 3. Elegir la acción que tiene el mínimo de los valores determinados en el punto 2.
+
+Por lo tanto, la elección será:
+
+<p align="center">
+min <span style="display: inline-block; text-align: center;"> {4,500; 2,000}  </span>) = $2,000
+</p>
+
+Que corresponde a la acción a<sub>2</sub>, pedir 200 playeras. 
+
+Resumiendo, la decisión a tomar de acuerdo con cada uno de los criteri?s de elección no probabilísticos es: 
+
+1. Criterio maximin: Decidir la acción a 1: pedir 100 playeras
+2. Criterio maximax: Decidir la acción a2: pedir 200 playeras
+3. Criterio de Hurwicz: Decidir la acción a2: pedir 200 playeras
+4. Criterio de Savage: Decidir la acción a2: pedir 200 playeras 
+
+|       |                |
+|----------------------|---------------------------------------|
+| 1. Criterio maximin     | Decidir la acción a<sub>1</sub>: pedir 100 playeras |
+| 2. Criterio maximax     | Decidir la acción a<sub>2</sub>: pedir 200 playeras |
+| 3. Criterio de Hurwicz  | Decidir la acción a<sub>2</sub>: pedir 200 playeras |
+| 4. Criterio de Savage   | Decidir la acción a<sub>2</sub>: pedir 200 playeras |
+
+Dentro de los criterios de decisión no probabilísticos no es común que una mayoría coincida en una decisión. En condiciones de completa incertidumbre, la elección del criterio que habrá de seguirse puede ser crucial, por lo que debe dejarse al responsable de tomar la decisión. Su elección será dictada por su propia actitud y por la política de la organización. 
