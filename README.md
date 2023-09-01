@@ -149,7 +149,7 @@ La matriz de pagos que se utilizará para tomar la decisión del tamaño del ped
 | θ<sub>2</sub>=150              | 1,750 | 3,000 |
 | θ<sub>3</sub>=200              | 1,500 | 6,000 |
 
-# UNIDAD2
+# UNIDAD 2
 
 *DECISIONES BAJO COMPLETA INCERTIDUMBRE*
 
@@ -200,6 +200,31 @@ Para aplicar este criterio debe calcularse una matriz de arrepentimiento o de p�
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Los demás valores se calculan como: 
 
+<p align="center">
+ Pérdida de oportunidad = <span style="display: inline-block; text-align: center;">(Pago que se habría recibido si se conociera el estado de la naturaleza que iba a ocurrir)</span> - (Pago actual)
+</p>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **2.** Determinar el valor máximo de cada acción.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **3.** Elegir Ja acción que tiene el valor mínimo de los máximos determinados en el punto anterior.
 
+Desventajas de este criterio:
+
+Además de las anotadas para el criterio maximin, cuando el pago se expresa en términos de "utilidad" (en este contexto no significa ganancia), no se puede asegurar que las diferencias de estas unidades reflejen "perdidas de oportunidad" en el mismo sentido que las diferencias de ganancias monetarias. 
+
+## Ejemplo 2
+
+Aplicar los criterios de elección no probabilísticos al ejemplo! para determinar la acción por la que debería decidirse en cada caso.
+
+## Solución
+
+* Matriz de pagos del ejemplo 1
+
+| Acción (pedido)             | a<sub>1</sub> | a<sub>2</sub> |
+|-----------------------------|-------|-------|
+| Estado de la naturaleza (demanda) | 100   | 200   |
+| θ<sub>1</sub>=100              | 2,000 | 0     |
+| θ<sub>2</sub>=150              | 1,750 | 3,000 |
+| θ<sub>3</sub>=200              | 1,500 | 6,000 |
+
+  
