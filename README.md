@@ -45,11 +45,15 @@ naturaleza, acción).
 
 ### **1.4 Elementos de un acto de decisión**
 
-1. Uno o más decisores (individuo, grupo, ·organización o sociedad) con objetivos y metas bien definidos.
-2. Un conjunto de posibles acciones que pueden tomarse para resolver el problema de decisión.
-3. Un conjunto de posibles estados de la naturaleza relacionados con los objetivos del decisor, sobre los que no ejerce control alguno.
-4. Un conjunto de consecuencias asociadas con la instrumentación de cada acción ante cada estado de la naturaleza que puede ocurrir, es decir, una función de consecuencias que liga acciones y resultados con el entorno. 
-5. Un proceso de decisión que, bajo un criterio específico, selecciona una o varias acciones dados un
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Uno o más decisores (individuo, grupo, ·organización o sociedad) con objetivos y metas bien definidos.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Un conjunto de posibles acciones que pueden tomarse para resolver el problema de decisión.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Un conjunto de posibles estados de la naturaleza relacionados con los objetivos del decisor, sobre los que no ejerce control alguno.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Un conjunto de consecuencias asociadas con la instrumentación de cada acción ante cada estado de la naturaleza que puede ocurrir, es decir, una función de consecuencias que liga acciones y resultados con el entorno. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Un proceso de decisión que, bajo un criterio específico, selecciona una o varias acciones dados un
 entorno y las metas explícitas del decisor.
 
 ### **1.5 Matriz de decisión o matriz de pagos**
@@ -92,7 +96,7 @@ l. Decisor:
 
 La función de consecuencias depende de la cantidad de playeras pedidas y de la cantidad vendida:
 
-a) Si la demanda es igual al pedido, el resultado está dado por:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Si la demanda es igual al pedido, el resultado está dado por:
 
 <p align="center">
   (demanda) <span style="display: inline-block; text-align: center;">x</span> (ganancia)
@@ -102,13 +106,13 @@ donde: <p align="center">
   ganancia =  <span style="display: inline-block; text-align: center;"> precio de venta -</span> precio de compra
 </p>
 
-b) Si la demanda es menor que el pedido, el resultado se obtiene al calcular: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Si la demanda es menor que el pedido, el resultado se obtiene al calcular: 
 
 <p align="center">
   [(demanda) (ganancia)]+ [(pedido - demanda) (precio de remate - precio de compra)]
 </p>
 
-e) Y si la demanda es mayor que el pedido:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Y si la demanda es mayor que el pedido:
 
 <p align="center">
  [(pedido) (ganancia)]- [ (5) (demanda-pedido)]
