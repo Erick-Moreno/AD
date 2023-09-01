@@ -76,19 +76,19 @@ l. Decisor:
 
 2. Cursos de acción posibles:
  
-      a<sub>1</sub> = pedir 100 prendas
+      a<sub>1</sub> ≈ pedir 100 prendas
    
-     a<sub>2</sub> = pedir 200 prendas
+     a<sub>2</sub> ≈ pedir 200 prendas
    
-      a<sub>3</sub> = pedir 300 prendas 
+      a<sub>3</sub> ≈ pedir 300 prendas 
 
 3. Estados de la naturaleza:
  
-      θ<sub>1</sub> = demanda de 100 prendas
+      θ<sub>1</sub> ≈ demanda de 100 prendas
    
-      θ<sub>2</sub> = demanda de 150 prendas
+      θ<sub>2</sub> ≈ demanda de 150 prendas
    
-      θ<sub>3</sub> = demanda de 200 prendas
+      θ<sub>3</sub> ≈ demanda de 200 prendas
 
 4. Función de consecuencias:
 
