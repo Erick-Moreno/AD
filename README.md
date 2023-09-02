@@ -273,7 +273,7 @@ Por lo tanto la decisión deberá ser a<sub>2</sub>: pedir 200 playeras.
 
 **d) Pesar minimax:criterio de Savage** (minimizar el arrepentimiento o pérdida de oportunidad máxima) 
 
-* 1. Cálculo de la matriz de pérdida de oportunidad:
+* 1 Cálculo de la matriz de pérdida de oportunidad:
  
 Si se piden 100 playeras (a<sub>1</sub>) y la demanda que resulta es de 150 (θ<sub>2</sub>), la pérdida de oportunidad será la diferencia entre la ganancia que pudo haber obtenido de solicitar la cantidad necesaria para maximizar la ganancia, menos la que obtiene por vender 100 playeras y dejar de vender 50: 
 
@@ -315,7 +315,7 @@ La matriz de pérdida de oportunidades es la siguiente:
 | θ<sub>2</sub>=150              | 1,250 | 0 |
 | θ<sub>3</sub>=200              | 4,500 | 0 |
 
-* 2. Determinar el valor máximo de cada acción
+* 2 Determinar el valor máximo de cada acción
 
 De la matriz de pérdida de oportunidad se observa que el pesar máximo (pérdida de oportunidad) para:
 
@@ -327,7 +327,7 @@ a<sub>1</sub>: <span style="display: inline-block; text-align: center;"> pedir 1
 a<sub>2</sub>: <span style="display: inline-block; text-align: center;"> pedir 200 prendas,  </span>) es $2,000
 </p>
 
-* 3. Elegir la acción que tiene el mínimo de los valores determinados en el punto 2.
+* 3 Elegir la acción que tiene el mínimo de los valores determinados en el punto 2.
 
 Por lo tanto, la elección será:
 
