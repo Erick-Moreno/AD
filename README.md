@@ -227,7 +227,7 @@ Aplicar los criterios de elección no probabilísticos al ejemplo! para determin
 | θ<sub>2</sub>=150              | 1,750 | 3,000 |
 | θ<sub>3</sub>=200              | 1,500 | 6,000 |
 
-**a) Criterio maximin (Wald).** Se decide por "lo mejor de lo peor". El pago mínimo con la acción a1 es $1,500; mientras que el pago mínimo con la acción a2 es $0. Bajo este criterio la mejor acción será: 
+**a) Criterio maximin (Wald).** Se decide por "lo mejor de lo peor". El pago mínimo con la acción a<sub>1</sub> es $1,500; mientras que el pago mínimo con la acción a<sub>2</sub> es $0. Bajo este criterio la mejor acción será: 
 
 <p align="center">
 max {1,500;0} <span style="display: inline-block; text-align: center;">=</span> $1,500 
@@ -241,7 +241,7 @@ max {1,500;0} <span style="display: inline-block; text-align: center;">=</span> 
 max {2,000;6,000} <span style="display: inline-block; text-align: center;">=</span> $6,000 
 </p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Por lo tanto la elección sería a2: pedir 200 prendas. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Por lo tanto la elección sería a<sub>2</sub>: pedir 200 prendas. 
 
 **c) Criterio de Hurwicz - índice α** (Coeficientes optimistas - pesimistas). Se determina el valor esperado de cada acción con base en los "pesos" que el decisor asigna a los pagos máximo y mínimo: 
 
